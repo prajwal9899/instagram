@@ -22,7 +22,7 @@ routes.post('/', (req,res) => {
         }
     })
 
-    res.redirect('/login')
+    res.redirect('/')
 })
 
 module.exports =  routes 
