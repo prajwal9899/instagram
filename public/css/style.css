@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form form input {
+  padding: 3px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 4px;
+  height: 40px;
+}
+
+.form form button {
+  background-color: RGB(0, 149, 246);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.form .or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form .or h4 {
+  margin: 0 15px;
+  color: rgb(148, 143, 143);
+}
+
+.form .or span {
+  border: 0.1px solid rgb(201, 201, 201);
+  width: 120px;
+  height: 0;
+}
+
+.form .facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form .facebook i {
+  width: 16px;
+  height: 16px;
+  color: rgb(57, 89, 158);
+  margin-right: 10px;
+}
+
+.form a {
+    margin-top: 20px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(10,59,143);
+}
+
+.signup {
+    margin-top: 70px;
+}
