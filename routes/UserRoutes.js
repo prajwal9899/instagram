@@ -3,15 +3,12 @@ const routes = express.Router()
 const User = require('../model/Userdata')
 
 
-routes.get('/', (req,res) => {
-    res.send('hello')
-})
 
-routes.get('/login' ,(req,res) => {
+routes.get('/' ,(req,res) => {
     res.render('layout.ejs')
 })
 
-routes.post('/login', (req,res) => {
+routes.post('/', (req,res) => {
     const user = new User({
         userId : req.body.userId,
         password : req.body.password
