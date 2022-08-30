@@ -10,7 +10,7 @@ const path = require('path')
 dotenv.config()
 
 // database connection
-mongoose.connect('mongodb+srv://admin:admin@cluster0.zotay.mongodb.net/UserData?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://admin:admin@cluster0.zotay.mongodb.net/?retryWrites=true&w=majority')
 .then(() => {
     console.log('Database connected successfully');
 }).catch((err) => {
